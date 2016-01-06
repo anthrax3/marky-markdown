@@ -9,6 +9,7 @@ The thing [npmjs.com](https://www.npmjs.com) uses to clean up READMEs and other 
 ## What it does
 
 - Parses markdown with [markdown-it](https://github.com/markdown-it/markdown-it), a fast and [commonmark-compliant](http://commonmark.org/) parser.
+- Parses markdown syntax for emojis with [markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji).
 - Removes broken and malicious user input with [sanitize-html](https://www.npmjs.com/package/sanitize-html)
 - Applies syntax highlighting to [GitHub-flavored code blocks](https://help.github.com/articles/github-flavored-markdown/#fenced-code-blocks) using the [highlights](https://www.npmjs.com/package/highlights) library from [Atom](https://atom.io/).
 - Uses [cheerio](https://www.npmjs.com/package/cheerio) to perform various feats of DOM manipulation.
